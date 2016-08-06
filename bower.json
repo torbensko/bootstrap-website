@@ -5,7 +5,7 @@
     "Torben Sko <torben.sko@gmail.com>"
   ],
   "description": "A modified Boostrap theme",
-  "main": "scss/_include.scss",
+  "main": "scss/main.scss",
   "ignore": [
     "**/.*",
     "node_modules",

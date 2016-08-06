@@ -28,19 +28,14 @@ module.exports = function(grunt) {
       },
       dev: {
         files: {
-          'styles/demo.css': 'scss/demo.scss'
-        }
-      },
-      dist: {
-        files: {
-          'styles/theme.css': 'scss/theme.scss'
+          'styles/demo.css': 'scss/demo.scss',
+          'styles/main.css': 'scss/main.scss'
         }
       }
     },
     // Inject dependencies
     wiredep: {
       options: {
-        devDependencies: true,
       },
       app: {
         src: ['index.html'],
@@ -49,6 +44,7 @@ module.exports = function(grunt) {
       sass: {
         src: ['./scss/*.{scss,sass}'],
         ignorePath: '../bower_components/',
+        devDependencies: true,
         exclude: [
           '_bootstrap.scss',
         ],
@@ -58,6 +54,7 @@ module.exports = function(grunt) {
 
   // Default task(s).
   grunt.registerTask('default', [
+      'wiredep',
   		'sass:dev',
   		'watch']);
 };
