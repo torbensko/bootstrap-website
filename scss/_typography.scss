@@ -1,0 +1,19 @@
+$header-single-margin-bottom: 15px;
+$header-dual-gap: 5px; // gap between two consecutive headers
+
+h1, h2, h3, h4, h5 {
+	margin: 20px 0 $header-single-margin-bottom 0;
+}
+
+h1 + h2,
+h1 + h3,
+h1 + h4,
+h1 + h5,
+h2 + h3,
+h2 + h4,
+h2 + h5,
+h3 + h4,
+h3 + h5,
+h4 + h5 {
+	margin-top: ($header-dual-gap - $header-single-margin-bottom);
+}
