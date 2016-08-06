@@ -39,6 +39,7 @@ module.exports = function(grunt) {
       },
       app: {
         src: ['index.html'],
+        devDependencies: true,
         // ignorePath: '',
       },
       sass: {
