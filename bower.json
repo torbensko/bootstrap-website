@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-website",
+  "homepage": "https://github.com/torbensko/bootstrap-website",
+  "authors": [
+    "Torben Sko <torben.sko@gmail.com>"
+  ],
+  "description": "A modified Boostrap theme",
+  "main": "scss/_include.scss",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  },
+  "devDependencies": {
+    "angular-inspect-html": "torbensko/angular-inspect-html#^1.1.1",
+    "angular": "^1.5.8"
+  }
+}

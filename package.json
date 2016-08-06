@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-website",
+  "description": "",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torbensko/bootstrap-website.git"
+  },
+  "author": "",
+  "homepage": "https://github.com/torbensko/bootstrap-website#readme",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.0",
+    "jit-grunt": "^0.10.0",
+    "grunt-wiredep": "^3.0.1"
+  }
+}
