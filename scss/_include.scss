@@ -1,4 +1,9 @@
+$icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+@import "variables";
+@import "bootstrap";
+
 // bower:scss
-@import "bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 @import "angular-inspect-html/scss/main.scss";
 // endbower
+

@@ -49,7 +49,9 @@ module.exports = function(grunt) {
       sass: {
         src: ['./scss/*.{scss,sass}'],
         ignorePath: '../bower_components/',
-        // exclude: [],
+        exclude: [
+          '_bootstrap.scss',
+        ],
       },
     },
   });
