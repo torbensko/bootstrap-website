@@ -59,13 +59,13 @@ $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
 
-$font-size-base:          11pt;
+$font-size-base:          12pt;
 $font-size-large:         ceil(($font-size-base * 1.25)); // ~18px
 $font-size-small:         ceil(($font-size-base * 0.85)); // ~12px
 
-$font-size-h1:            3em; // ~36px
-$font-size-h2:            2.6em; // ~30px
-$font-size-h3:            2em; // ~24px
+$font-size-h1:            3em;
+$font-size-h2:            2.5em;
+$font-size-h3:            2em;
 $font-size-h4:            1.6em;
 $font-size-h5:            1.2em;
 $font-size-h6:            1.1em;

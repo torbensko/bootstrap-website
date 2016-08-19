@@ -2,7 +2,10 @@ $header-single-margin-bottom: 15px;
 $header-dual-gap: 5px; // gap between two consecutive headers
 
 h1, h2, h3, h4, h5 {
-	margin: 20px 0 $header-single-margin-bottom 0;
+	margin: 0.5em 0 $header-single-margin-bottom 0;
+}
+h5 {
+	font-weight: 600;
 }
 
 h1 + h2,
@@ -16,4 +19,26 @@ h3 + h4,
 h3 + h5,
 h4 + h5 {
 	margin-top: ($header-dual-gap - $header-single-margin-bottom);
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small {
+	display: block;
+}
+
+p {
+	line-height: 1.4em;
+}
+
+@media (max-width: $screen-xs-max) {
+	h1 { font-size: $font-size-h1 * 0.5; }
+	h2 { font-size: $font-size-h2 * 0.5; }
+	h3 { font-size: $font-size-h3 * 0.5; }
+	h4 { font-size: $font-size-h4 * 0.5; }
+	h5 { font-size: $font-size-h5 * 0.5; }
+	h6 { font-size: $font-size-h6 * 0.5; }
+	p  { font-size: $font-size-small; }
 }
